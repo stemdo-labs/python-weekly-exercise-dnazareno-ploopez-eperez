@@ -12,7 +12,7 @@
 # This should make it easy to add new rules without breaking existing ones.
 
 # OWNERS_TEAMS
-* @stemdo-labs/DTO_DevSecOps-BC24-Coordinators @stemdo-labs/DTO_DevSecOps-BC24-Python @sabreu-stemdo @JaSiLez
+* @stemdo-labs/DTO_DevSecOps-BC24-Coordinators @stemdo-labs/DTO_DevSecOps-BC24-Python @sabreu-stemdo @JaSiLez @EperezStemdo @davidnboffelli @ploopez
 
 # COMPLIANCE_TEAMS
 .github/workflows @sabreu-stemdo @JaSiLez
