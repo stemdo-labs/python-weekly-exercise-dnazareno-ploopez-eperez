@@ -1,7 +1,7 @@
 from database import Base
 from sqlalchemy import Column, Integer, String, TIMESTAMP, Boolean, text
 
-
+#Creación de la tabla en la base de datos
 class Post(Base):
     __tablename__ = "posts"
 
