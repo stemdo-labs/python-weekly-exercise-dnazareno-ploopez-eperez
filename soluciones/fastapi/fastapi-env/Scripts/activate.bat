@@ -8,7 +8,7 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
-set VIRTUAL_ENV=C:\Users\eperez\EjerciciosBootcamp\3-ejercicio-final-python\python-weekly-exercise-dnazareno-ploopez-eperez\soluciones\fastapi\fastapi-env
+set VIRTUAL_ENV=C:\Users\eperez\EjerciciosBootcamp\3-ejercicio-semanal-python\fastapi-env
 
 if not defined PROMPT set PROMPT=$P$G
 
