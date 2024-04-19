@@ -1,0 +1,21 @@
+version: "1"
+
+services:
+  
+  db:
+    image: ejerfinal-db
+    restart: always
+    shm_size: 128mb
+    environment:
+      POSTGRES_HOST: localhost
+      POSTGRES_DB: ejerciciofinal
+      POSTGRES_USER: equipo
+      POSTGRES_PASSWORD: docker
+    ports:
+      - 5432:5432
+
+  adminer:
+    image: adminer
+    restart: always
+    ports:
+      - 8080:8080
