@@ -1,0 +1,12 @@
+from database import Base
+from sqlalchemy import Column, Integer, String, TIMESTAMP, Boolean, text
+
+#Creación de la tabla en la base de datos
+class Post(Base):
+    __tablename__ = "posts"
+
+    id = Column(Integer,primary_key=True,nullable=False)
+    title = Column(String,nullable=False)
+    content = Column(String,nullable=False)
+    done = Column(Boolean, server_default='FALSE')
+    created_at = Column(TIMESTAMP(timezone=True), server_default=text('now()'))
